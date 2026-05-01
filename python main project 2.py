@@ -59,21 +59,6 @@ else:
         mycursor.execute(sql,val)
 asyncio.run(main())
     
-'''import asyncio
-from telegram import Bot
-
-async def main():
-    bot = Bot(token="8666657130:AAEO5DUJnt5vfD-paGHsgkI4ICrEZN3qRC8")
-    await bot.send_message(chat_id="1242166619", text="Hello! It works 🎉")
-
-asyncio.run(main())
-
-import requests
-res = requests.get("https://ipinfo.io")
-a=(res.json())
-print(a)'''
-
-
 
 
 
