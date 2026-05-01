@@ -57,7 +57,7 @@ else:
         sql = "insert into thirdparty(ip,city,region,country,loc,org,postal,timezone,readme) values(%s,%s,%s,%s,%s,%s,%s,%s,%s)"
         val=(f"{b}",f"{c}",f"{d}",f"{e}",f"{f}",f"{g}",f"{h}",f"{i}",f"{j}")
         mycursor.execute(sql,val)
-asyncio.run(main())
+    asyncio.run(main())
     
 
 
